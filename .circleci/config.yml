@@ -20,5 +20,3 @@ jobs:
           command: |
             . helloworld/bin/activate
             python test_hello_world.py
-      - setup_remote_docker:
-          docker_layer_caching: true
