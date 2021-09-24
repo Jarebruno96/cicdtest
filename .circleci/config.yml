@@ -20,4 +20,4 @@ jobs:
           command: |
             . helloworld/bin/activate
             coverage run -m test_hello_world
-            coverage report --omit=helloworld/
+            coverage report -m
