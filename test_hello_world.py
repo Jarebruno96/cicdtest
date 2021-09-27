@@ -9,7 +9,7 @@ class TestHelloWorld(unittest.TestCase):
 
     def test_status_code(self):
         response = self.app.get('/')
-        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.status_code, 500)
     
     """def test_message(self):
         response = self.app.get('/')
